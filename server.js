@@ -18,7 +18,7 @@ app.use(
 
 
 app.get('/',(req,res)=>{
-    res.send({message:"Bienvenido a mi API"})
+    res.send({message:"Bienvenido a mi API desde render 20:00"})
 });
 require('./app/routes/auth.routes')(app);
 require('./app/routes/user.routes')(app);
